@@ -1,0 +1,54 @@
+{
+  "name": "Ficha 8 - Reglamento General Académico",
+  "platform": "web",
+  "source": "Styles.html",
+  "tokens": {
+    "color": {
+      "ink": "#152a3b",
+      "inkSoft": "#435769",
+      "muted": "#657789",
+      "line": "#d6e0e8",
+      "lineStrong": "#b9c8d4",
+      "paper": "#f4f7fa",
+      "surface": "#ffffff",
+      "surfaceSoft": "#edf3f7",
+      "navy": "#173852",
+      "blue": "#1765c0",
+      "blueDark": "#104c92",
+      "bluePale": "#e6f0fc",
+      "green": "#14764d",
+      "greenPale": "#e6f5ed",
+      "amber": "#9b6308",
+      "amberPale": "#fff3d6",
+      "orange": "#a8421d",
+      "orangePale": "#fff0e9",
+      "purple": "#6842a4",
+      "purplePale": "#f1ecfa",
+      "danger": "#a12e36",
+      "dangerPale": "#fff0f0"
+    },
+    "typography": {
+      "family": "Public Sans, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif",
+      "displayFamily": "Source Serif 4, Georgia, Times New Roman, serif",
+      "baseSize": "16px",
+      "headingScale": "clamp(32px, 4.1vw, 50px)",
+      "bodyLineHeight": "1.6"
+    },
+    "layout": {
+      "contentMaxWidth": "1440px",
+      "mobileBreakpoint": "640px",
+      "tabletBreakpoint": "900px",
+      "touchTargetMinHeight": "44px"
+    },
+    "shape": {
+      "controlRadius": "3px",
+      "panelShadow": "0 8px 24px rgba(21, 42, 59, .08)"
+    }
+  },
+  "semáforo": {
+    "Mantener": "green",
+    "Revisar": "amber",
+    "Modificar": "orange",
+    "Incorporar": "purple"
+  }
+}
