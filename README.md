@@ -21,7 +21,9 @@ El avance mostrado corresponde al porcentaje de campos completos entre las obser
 5. Selecciona **Implementar → Nueva implementación → Aplicación web**. Configura **Ejecutar como: yo** y **Quién tiene acceso: cualquier persona** (o la opción anónima equivalente que ofrezca la cuenta). Implementa y copia la URL.
 6. Abre la URL e ingresa el código de facilitación. Crea los grupos y comparte a cada uno su enlace independiente.
 
-Si se modifica el código después de publicarlo, crea una nueva versión desde **Implementar → Administrar implementaciones → Editar → Nueva versión**. Para invalidar un código de facilitación perdido, ejecuta `resetFacilitatorCode` desde el editor y copia el nuevo código del registro de ejecución.
+Si se modifica el código después de publicarlo, crea una nueva versión desde **Implementar → Administrar implementaciones → Editar → Nueva versión**; así la URL `/exec` y los enlaces de grupo se mantienen. Una **Nueva implementación** genera otra URL e invalida los enlaces ya compartidos. Para invalidar un código de facilitación perdido, ejecuta `resetFacilitatorCode` desde el editor y copia el nuevo código del registro de ejecución.
+
+La sesión de facilitación dura 6 horas; después, el panel vuelve a pedir el código.
 
 ## Acceso y privacidad
 

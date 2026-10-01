@@ -1,6 +1,6 @@
 const WORKBOOK_ID_ = '1nMhn4OlQScKTBrM1uTOuF7-U-l_8p6HJGpTlE9GMedQ';
 const MAX_FILE_BYTES_ = 25 * 1024 * 1024;
-const ADMIN_SESSION_SECONDS_ = 1800;
+const ADMIN_SESSION_SECONDS_ = 21600;
 const SHEETS_ = {
   groups: {
     name: 'Grupos',
@@ -66,7 +66,7 @@ function getAdminSnapshot(adminToken) {
         files: files.filter(function (item) { return item.groupId === group.id; }).map(publicFile_)
       };
     }).sort(function (a, b) {
-      return b.summary.createdAt.localeCompare(a.summary.createdAt);
+      return a.summary.createdAt.localeCompare(b.summary.createdAt);
     });
     return { groups: groups };
   });
